@@ -35,19 +35,26 @@
           <h1 class="mb-5">Your body needs YOU!<br>Take care of it!</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          
           <form action="https://submit-form.com/ifkaGCUa7TzlUjzDm53G1" target="_self">
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Start today!</button>
-              </div>
-            </div>
+            <!-- Prevent spam without a captcha -->
+            
+            
+            <input type="checkbox" name="_honeypot" style="display: none" tabindex="-1" autocomplete="off">
+        
+            <!-- All elements must have a name attribute -->
+            <input class="form-control form-control-lg" type="text" name="subject" placeholder="Your name">
+   
+            <input class="form-control form-control-lg" type="text" name="email" placeholder="Your email">
+       
+            <!-- A button of type submit -->
+            
+            <button class ="btn btn-block btn-lg btn-danger" type="submit" >Start now!</button>
           </form>
+         </div>
         </div>
       </div>
-    </div>
+    
   </header>
 
   <!-- Icons Grid -->
@@ -104,7 +111,7 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('../startbootstrap-landing-page/img/exe office.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('../startbootstrap-landing-page/img/crossfit-dumbbell-equipment-669578.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2>Exercise system</h2>
           <p class="lead mb-0">
@@ -126,16 +133,19 @@
           <h2 class="mb-4">Don't wait guys!<br> Let's Exercise!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          
           <form action="https://submit-form.com/ifkaGCUa7TzlUjzDm53G1" target="_self">
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Do it now!</button>
-              </div>
-            </div>
-          </form>
+            <!-- Prevent spam without a captcha -->
+            <input type="checkbox" name="_honeypot" style="display: none" tabindex="-1" autocomplete="off">
+        
+            <!-- All elements must have a name attribute -->
+            <input class="form-control form-control-lg" type="text" name="subject" placeholder="Your name">
+   
+            <input class="form-control form-control-lg" type="text" name="email" placeholder="Your email">
+       
+            <button type="submit" class="btn btn-block btn-lg btn-danger">Start today!</button>
+              
+           </form>
         </div>
       </div>
     </div>
@@ -155,6 +165,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
 
 </body>
 
